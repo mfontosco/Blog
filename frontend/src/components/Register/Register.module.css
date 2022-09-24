@@ -1,0 +1,45 @@
+.container{
+    height: 93vh;
+    width: 100%;
+    background-image: url('../../Images/Image1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form{
+    width: 400px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}.container form h2 {
+    color: #F0EABE;
+    font-size: 24px;
+
+}
+.container form .terms{
+    margin-top: 10px;
+}
+.container form .terms p{
+color: #FEC260;
+}
+.container form .formGroup{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container form .formGroup .input{
+padding: 15px;
+border-radius: 20px;
+}
+.container form .btn{
+    border-radius: 30px;
+    padding: 10px;
+    background-color: aqua;
+}

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.container a{
+    color: black;
+    border: 1px solid purple;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    text-transform: uppercase;
+
+}
+.container .Login{
+    margin-left: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container a:hover{
+    cursor: pointer;
+}

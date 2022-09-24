@@ -1,0 +1,21 @@
+.container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+
+.container form{
+    border: 1px solid black;
+    width: 40%;
+}
+.container form .formGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    width: 100%;
+}

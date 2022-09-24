@@ -1,0 +1,59 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.container img{
+    width: 100%;
+}
+.container .header{
+    width: 100%;
+    height: 40vh;
+    background-image: url("../../../Images/Image3.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container .header h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.container .sectionCenter{
+    display: flex;
+    width: 100%;
+}
+.container .sectionCenter .blogs{
+    width: 76vw;
+    height: auto;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+}
+.container .sectionCenter .blogs .post{
+    width: 400px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+}
+.container .sectionCenter .blogs .post a{
+    text-decoration: none;
+    color: black;
+}
+.container .sectionCenter .blogs .post img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.container .sectionCenter .blogs .post .icons{
+    display: flex;
+    justify-content: space-between;
+    width:100% ;
+}
